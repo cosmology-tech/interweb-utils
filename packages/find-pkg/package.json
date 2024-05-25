@@ -1,6 +1,6 @@
 {
   "name": "@interweb-utils/find-pkg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "Find package.json files from within a build/package",
   "main": "index.js",
