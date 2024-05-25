@@ -2,7 +2,7 @@
   "name": "@interweb-utils/casing",
   "version": "0.1.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "description": "casing utils",
+  "description": "Interweb casing utils",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "copy": "copyfiles -f ../../LICENSE README.md package.json dist",
-    "clean": "del dist/**",
+    "clean": "rimraf dist/**",
     "prepare": "npm run build",
     "build": "npm run clean; tsc; tsc -p tsconfig.esm.json; npm run copy",
     "test": "jest",
