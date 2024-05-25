@@ -10,6 +10,7 @@
 This workspace includes the following packages:
 
 - [find-pkg](https://github.com/cosmology-tech/interweb-utils/tree/main/packages/find-pkg)
+- [casing](https://github.com/cosmology-tech/interweb-utils/tree/main/packages/casing)
 
 
 ## Developing
