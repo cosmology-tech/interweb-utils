@@ -1,5 +1,5 @@
 {
-  "name": "@interweb-utils/find-pkg",
+  "name": "@interweb/find-pkg",
   "version": "0.3.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "Find the package.json file from within a build/package",

@@ -1,5 +1,5 @@
 {
-  "name": "@interweb-utils/casing",
+  "name": "@interweb/casing",
   "version": "0.3.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "Interweb casing utils",

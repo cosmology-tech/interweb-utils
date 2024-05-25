@@ -1,28 +1,27 @@
-# interweb utils
+# eslint
 
 <p align="center">
-  <img src="https://github.com/cosmology-tech/interweb-utils/assets/545047/89c743c4-be88-409f-9a77-4b02cd7fe9a4" width="80">
-  <br />
-    Open-source utilities for the Interweb
-  <br />
-    <a href="https://github.com/cosmology-tech/interweb-utils/actions/workflows/run-tests.yml">
-    <img height="20" src="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
-    </a>
-   <img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img src="https://user-images.githubusercontent.com/545047/188804067-28e67e5e-0214-4449-ab04-2e0c564a6885.svg" width="80"><br />
+    Interweb eslint
 </p>
 
+## install
 
+```sh
+npm install eslint
+```
+## Table of contents
 
-This workspace includes the following packages:
-
-- [find-pkg](https://github.com/cosmology-tech/interweb-utils/tree/main/packages/find-pkg)
-- [casing](https://github.com/cosmology-tech/interweb-utils/tree/main/packages/casing)
-- [eslint](https://github.com/cosmology-tech/interweb-utils/tree/main/packages/eslint)
+- [eslint](#eslint)
+  - [Install](#install)
+  - [Table of contents](#table-of-contents)
+- [Developing](#developing)
+- [Credits](#credits)
 
 ## Developing
 
-
 When first cloning the repo:
+
 ```
 yarn
 yarn build
