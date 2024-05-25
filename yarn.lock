@@ -365,20 +365,6 @@
   resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
   integrity sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==
 
-"@interweb/eslint@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@interweb/eslint/-/eslint-0.5.0.tgz#4f27e83139009a48c505ff22ad845099ebb86288"
-  integrity sha512-px4QHSPLO1X4hNN2eAIm0FsfnDaQYrb7X0qbJ8VC8hnix7J5q9yKVqGwtNhcV5itnf+4UKQt60GaKONlDp9Oaw==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^7.10.0"
-    "@typescript-eslint/parser" "^7.10.0"
-    eslint "^8.56.0"
-    eslint-config-prettier "^9.1.0"
-    eslint-plugin-prettier "^5.1.3"
-    eslint-plugin-simple-import-sort "^12.1.0"
-    eslint-plugin-unused-imports "^4.0.0"
-    prettier "^3.0.2"
-
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
