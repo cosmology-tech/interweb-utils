@@ -14,11 +14,11 @@ describe('findPackageJson', () => {
     description: 'A mock package for testing',
     main: 'index.js',
     scripts: {
-      test: 'jest'
+      test: 'jest',
     },
     dependencies: {
-      jest: '^27.0.0'
-    }
+      jest: '^27.0.0',
+    },
   };
 
   beforeEach(() => {
@@ -30,7 +30,9 @@ describe('findPackageJson', () => {
     const mockFilePath = join(mockCurrentDir, 'package.json');
 
     (existsSync as jest.Mock).mockReturnValue(true);
-    (readFileSync as jest.Mock).mockReturnValue(JSON.stringify(mockPackageJson));
+    (readFileSync as jest.Mock).mockReturnValue(
+      JSON.stringify(mockPackageJson)
+    );
     (dirname as jest.Mock).mockReturnValue(mockCurrentDir);
     (join as jest.Mock).mockReturnValue(mockFilePath);
 
@@ -49,11 +51,15 @@ describe('findPackageJson', () => {
     const mockFilePath = join(mockCurrentDir, 'package.json');
 
     (existsSync as jest.Mock).mockReturnValue(false);
-    (dirname as jest.Mock).mockReturnValueOnce(mockParentDir).mockReturnValueOnce(mockParentDir);
+    (dirname as jest.Mock)
+      .mockReturnValueOnce(mockParentDir)
+      .mockReturnValueOnce(mockParentDir);
 
     jest.spyOn(process, 'cwd').mockReturnValue(mockCurrentDir);
 
-    expect(() => findPackageJson()).toThrow('package.json not found in any parent directory');
+    expect(() => findPackageJson()).toThrow(
+      'package.json not found in any parent directory'
+    );
     expect(existsSync).toHaveBeenCalledWith(mockFilePath);
   });
 });

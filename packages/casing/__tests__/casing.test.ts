@@ -1,4 +1,9 @@
-import { isValidIdentifier, isValidIdentifierCamelized, toCamelCase, toPascalCase } from '../src';
+import {
+  isValidIdentifier,
+  isValidIdentifierCamelized,
+  toCamelCase,
+  toPascalCase,
+} from '../src';
 
 it('should convert strings to PascalCase', () => {
   expect(toPascalCase('hello_world')).toBe('HelloWorld');

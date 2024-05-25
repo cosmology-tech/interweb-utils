@@ -1,4 +1,4 @@
-import { existsSync,readFileSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { dirname, join } from 'path';
 
 // Define the PackageJson type
@@ -15,7 +15,7 @@ export interface PackageJson {
   [key: string]: any; // This allows for additional properties
 }
 
-// need to search due to the dist/ folder and src/, etc. 
+// need to search due to the dist/ folder and src/, etc.
 function _findPackageJson(currentDir: string): string {
   const filePath = join(currentDir, 'package.json');
 
