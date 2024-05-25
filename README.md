@@ -6,7 +6,7 @@
     Open-source utilities for the Interweb
   <br />
     <a href="https://github.com/cosmology-tech/interweb-utils/actions/workflows/run-tests.yml">
-    <img height="20" src="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
+    <img height="20" src="https://github.com/cosmology-tech/interweb-utils/actions/workflows/run-tests.yml/badge.svg" />
     </a>
    <img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg">
 </p>
