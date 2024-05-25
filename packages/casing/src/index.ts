@@ -19,5 +19,5 @@ export function isValidIdentifier(key: string) {
 
 // Determine if the key is a valid JavaScript-like identifier, allowing internal hyphens
 export function isValidIdentifierCamelized(key: string) {
-  return /^[$A-Z_][0-9A-Z_$\-]*$/i.test(key) && !/^[0-9]+$/.test(key) && !/^-/.test(key);
+  return /^[$A-Z_][0-9A-Z_$-]*$/i.test(key) && !/^[0-9]+$/.test(key) && !/^-/.test(key);
 }
