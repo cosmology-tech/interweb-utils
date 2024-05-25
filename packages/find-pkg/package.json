@@ -1,5 +1,5 @@
 {
-  "name": "@cosmology-tech/find-pkg",
+  "name": "@interweb-utils/find-pkg",
   "version": "0.0.1",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "Find package.json files from within a build/package",
