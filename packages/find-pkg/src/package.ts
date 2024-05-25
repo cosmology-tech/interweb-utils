@@ -1,5 +1,5 @@
-import { existsSync,readFileSync } from "fs";
-import { dirname, join } from "path";
+import { existsSync,readFileSync } from 'fs';
+import { dirname, join } from 'path';
 
 // Define the PackageJson type
 export interface PackageJson {

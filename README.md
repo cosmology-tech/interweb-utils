@@ -4,7 +4,13 @@
   <img src="https://github.com/cosmology-tech/interweb-utils/assets/545047/89c743c4-be88-409f-9a77-4b02cd7fe9a4" width="80">
   <br />
     Open-source utilities for the Web
+  <br />
+    <a href="https://github.com/cosmology-tech/interweb-utils/actions/workflows/run-tests.yml">
+    <img height="20" src="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
+    </a>
+   <img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg">
 </p>
+
 
 
 This workspace includes the following packages:
