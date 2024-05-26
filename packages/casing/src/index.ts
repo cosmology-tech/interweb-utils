@@ -6,11 +6,16 @@ export function toPascalCase(str: string) {
     .replace(/[_\s-]/g, '');
 }
 
-export function toCamelCase(key: string) {
+export function toCamelCase(
+  key: string,
+  stripLeadingNonAlphabetChars: boolean = false
+) {
+  if (stripLeadingNonAlphabetChars) {
+    // First, remove all leading non-alphabet characters
+    key = key.replace(/^[^a-zA-Z]+/, '');
+  }
   return (
     key
-      // First, remove all leading non-alphabet characters
-      .replace(/^[^a-zA-Z]+/, '')
       // Convert what follows a separator into upper case
       .replace(/[-_\s]+(.)?/g, (_, c) => (c ? c.toUpperCase() : ''))
       // Ensure the first character of the result is always lowercase
